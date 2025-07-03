@@ -1,3 +1,6 @@
+# Auto Photo Enhancer
+
+This repository contains a simple webapp that enhances car photos using OpenAI. See `webapp/` for the landing page and server.
 # Introduction to GitHub
 
 <!-- ![](https://github.com/Houssein197/skills-introduction-to-github/actions/workflows/0-start-exercise.yml/badge.svg) -->
