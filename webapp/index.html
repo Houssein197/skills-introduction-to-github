@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Photo Enhancer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Auto Photo Enhancer</h1>
+    <p>Enhance your vehicle images with AI</p>
+  </header>
+
+  <main>
+    <section id="auth-section">
+      <button id="login-btn">Log in / Sign up</button>
+    </section>
+
+    <section id="upload-section" hidden>
+      <h2>Upload up to 5 photos</h2>
+      <input type="file" id="photo-input" accept="image/*" multiple>
+      <button id="process-btn">Enhance Images</button>
+      <div id="results"></div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
